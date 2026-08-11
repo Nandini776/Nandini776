@@ -1,0 +1,35 @@
+<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="55%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="70" fill="url(#bg)"/>
+
+  <!-- Left Polygon -->
+  <polygon points="0,0 220,0 340,35 0,35"
+           fill="#14213D"
+           opacity="0.45"/>
+
+  <!-- Right Polygon -->
+  <polygon points="1200,0 1200,35 930,70 760,0"
+           fill="#3B82F6"
+           opacity="0.28"/>
+
+  <!-- Top Wave -->
+  <path
+    d="M0 20
+       C180 0 360 40 600 20
+       C840 0 1020 40 1200 18
+       L1200 0
+       L0 0
+       Z"
+    fill="#111827"
+    opacity="0.45"/>
+
+</svg>
